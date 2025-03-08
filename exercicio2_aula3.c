@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Faça um algoritmo que solicite ao usuário um valor e exiba o dobro do valor
+
 int main ()
 {
     float num, dobro;
@@ -9,6 +11,6 @@ int main ()
 
     dobro = (num * 2);
 
-    printf("\nO dobro do numero �: %f", dobro);
+    printf("\nO dobro do numero é: %f", dobro);
 
 }
