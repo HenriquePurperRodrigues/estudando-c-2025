@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+//Faça um algoritmo que calcule a velocidade média de um trajeto com base na
+//distância percorrida e no tempo (em decimal) usado para isso.
+
 int main ()
 {
     float velocidadeMedia, distancia, tempo;
@@ -12,7 +15,7 @@ int main ()
 
     velocidadeMedia = (distancia / tempo);
 
-    printf("\n A velocidade m�dia do trajeto � %f", velocidadeMedia);
+    printf("\n A velocidade média do trajeto é %f", velocidadeMedia);
 
 
 
