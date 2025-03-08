@@ -1,18 +1,21 @@
 #include <stdio.h>
 
+//Fa√ßa um algoritmo que recebe dois valores representando as medidas da base e da
+//altura de um tri√¢ngulo qualquer e exiba a √°rea deste tri√¢ngulo.
+
 int main()
 {
     float altura, base, area;
 
-    printf("Digite a altura do tri‚ngulo: ");
+    printf("Digite a altura do tri√¢ngulo: ");
     scanf("%f", &altura);
 
-    printf("Digite a base do tri‚ngulo: ");
+    printf("Digite a base do tri√¢ngulo: ");
     scanf("%f", &base);
 
     area = (base * altura) / 2;
 
-    printf("\nA ·rea do tri‚ngulo È %f ", area);
+    printf("\nA √°rea do tri√¢ngulo √© %f ", area);
 
 
 }
